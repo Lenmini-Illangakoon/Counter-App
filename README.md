@@ -1,4 +1,4 @@
-                                                                                    Simple Counter Project with React
+Simple Counter Project with React
 
 This project demonstrates creating a simple counter using React functional components and the useState hook.
 
