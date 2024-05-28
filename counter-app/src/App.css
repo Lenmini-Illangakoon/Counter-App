@@ -1,0 +1,51 @@
+/* Styles for the main counter container */
+.counter{
+  text-align: center; /* Center-align text */
+  margin: 200px; 
+}
+
+.counter_display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+/* Styles for the counter output span */
+.counter_output{
+  font-size: 21px;
+  color: blue;
+  font-weight: bold;
+
+}
+/* Styles for the button container */
+.btn_container{
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 20px; /* Add space between buttons */
+  margin-top: 20px; /* Add space at the top */
+}
+
+/* Styles for all buttons */
+button{
+  padding: 10px 20px; /* Add padding inside buttons */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer; /* Change cursor to pointer on hover */
+  font-size: 1em;
+}
+
+/* Styles for increment button */
+.increment_btn{
+  background-color: yellow;
+}
+
+/* Styles for decrement button */
+.decrement_btn{
+  background-color: orange;
+}
+
+/* Styles for reset button */
+.reset_btn{
+  background-color: rgb(48, 175, 82);
+  margin-top: 15px;
+}
